@@ -257,7 +257,7 @@ namespace TriadBuddyPlugin
             var nodePvPButton = GUINodeUtils.PickNode(level0, 11, 12);
             if (nodePvPButton != null && nodePvPButton->IsVisible())
             {
-                return true;
+                return false;
             }
 
             return false;
